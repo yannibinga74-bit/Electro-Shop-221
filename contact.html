@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electro-Shop 221 — Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">Electro-Shop<span class="logo-code">221</span></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="produits.html">Produits</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="container" style="padding-top:56px;">
+    <span class="eyebrow">Contact</span>
+    <h2 style="font-family:var(--font-display); font-size:2.2rem;">Une question ? Écrivez-nous.</h2>
+
+    <div class="contact-layout" style="margin-top:32px;">
+      <form class="contact-form" novalidate>
+        <div class="form-status"></div>
+
+        <div class="field">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom">
+          <div class="error-msg" id="name-error"></div>
+        </div>
+
+        <div class="field">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" placeholder="vous@exemple.com">
+          <div class="error-msg" id="email-error"></div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Votre message"></textarea>
+          <div class="error-msg" id="message-error"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+      </form>
+
+      <div class="contact-info hero-panel">
+        <div class="hero-panel-title">Nos coordonnées</div>
+        <div class="spec-line"><span>Adresse</span><span>Dakar, Sénégal</span></div>
+        <div class="spec-line"><span>Téléphone</span><span>+221 77 000 00 00</span></div>
+        <div class="spec-line"><span>Email</span><span>electroshop221@gmail.com</span></div>
+        <div class="spec-line"><span>Horaires</span><span>Lun–Sam, 9h–19h</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer container">
+    <span>© 2026 Electro-Shop 221 — Dakar, Sénégal</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
