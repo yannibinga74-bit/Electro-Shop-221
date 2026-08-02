@@ -3,6 +3,14 @@ function initNavToggle() {
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".main-nav");
 
+const boutons = document.querySelectorAll("button");
+
+boutons.forEach(bouton => {
+    bouton.addEventListener("click", () => {
+        alert("Produit ajouté au panier (simulation).");
+    });
+});
+
   if (!toggle || !nav) return;
 
   toggle.addEventListener("click", () => {
