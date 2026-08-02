@@ -6,8 +6,7 @@ module **Versioning** — ESITEC, Licence 1 Génie Informatique.
 
 ## Sujet
 
-Electro-Shop 221 vend des smartphones, ordinateurs portables, produits audio et
-accessoires. Le site présente le catalogue, la boutique et un moyen de contact.
+Electro-Shop 221 est une boutique de vente en ligne fictive dediee a la vente d'appareils electroniques telles que les smartphones, ordinateurs, appareils audios et accessoires. Le site permet de consulter les catalogues et de contacter la boutique.
 
 ## Structure des fichiers
 
